@@ -71,7 +71,7 @@ body {  background-color: #f7fafd; }
 
 // This use  Moment.js and jQuery!!!
 
-var targetDate = moment('1/1/2020');
+var targetDate = moment('1/1/2023');
 
 var $days = $('#days'),
     $hours = $('#hours'),
