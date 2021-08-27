@@ -1,4 +1,4 @@
-# Project Name
+# ToDo List
 > A small project of the full Creative Javascript Course, a todo list in vanilla js.
 
 
