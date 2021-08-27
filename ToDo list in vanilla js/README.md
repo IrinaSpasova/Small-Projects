@@ -38,10 +38,8 @@ Project is:  _complete_ .
 
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
 - This project was based on [this tutorial](https://www.youtube.com/watch?v=Ttf3CEsEwMQ).
-- Many thanks to...
+
 
 
 ## Contact
