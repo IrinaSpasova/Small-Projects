@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(45deg, #874da2 0%, #c43a30 100%);
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+header,
+form {
+    min-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input,
+form button {
+    padding: 0.5rem;
+    font-size: 2rem;
+    border: none;
+    background: aliceblue;
+}
+
+form button {
+    color: #874da2;
+    background-color: aliceblue;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover {
+    background: #874da2;
+    color: aliceblue;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-list {
+    min-width: 30%;
+    list-style: none;
+}
+
+.todo {
+    margin: 0.5rem;
+    background: aliceblue;
+    color: black;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.3s ease;
+}
+
+.todo li {
+    flex: 1;
+    /*align icons to the right site of the <li> */
+}
+
+.trash-btn,
+.complete-btn {
+    background: #874da2;
+    color: aliceblue;
+    border: none;
+    padding: 1rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.complete-btn {
+    background: #53C439;
+}
+
+.todo-item {
+    padding: 0rem 0.5rem;
+    /*padding at the beginning of the list input*/
+}
+
+.fa-trash,
+.fa-check {
+    pointer-events: none;
+    /*remove disability to delete/check something when click on the icon*/
+}
+
+.completed {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.fall{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+select{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select{
+    background: aliceblue;
+    margin: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+select{
+    background: aliceblue;
+    color: #874da2;
+    width: 10rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.select::after{
+    content: "\25BC";
+    /*triangle arrow, next to drop menu*/
+    position: absolute;
+    background: #53C439;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+    pointer-events: none; /*because we have to be able to click the button*/
+    transition: all 0.3s ease;
+}
+
+.select:hover::after{
+    background: aliceblue;
+    color: #53C439;
+}
