@@ -14,15 +14,17 @@
 
 
 ## General Information
-- Provide general information about your project here.
+- General information about the project.
+- > A list of things that one wants to get done or that need to get done
 - What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+- 
+- What is the purpose of the project?
+- Why did I undertake it?
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- VanilLa JS.
+- Vanilla JS.
 
 
 ## Screenshots
