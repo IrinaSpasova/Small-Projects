@@ -26,7 +26,7 @@
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/ToDo%20list%20in%20vanilla%20js/Irina'sToDo.jpg)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
