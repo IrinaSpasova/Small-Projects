@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Glassmorphism%20Login%20Form/image.png)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Ghost%20Text%202/image.png)
 
 
 ## Project Status
