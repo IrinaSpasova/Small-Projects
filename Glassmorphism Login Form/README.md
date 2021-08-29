@@ -12,7 +12,7 @@ Project is:  _complete_ .
 
 
 ## Acknowledgements
-- This project was based on [this tutorial]https://www.youtube.com/watch?v=mW0Z1T8l7sU&list=PL5e68lK9hEzdn0O-OkMNNKHmP1iU6e6Dj).
+- This project was based on this tutorial: (https://www.youtube.com/watch?v=mW0Z1T8l7sU&list=PL5e68lK9hEzdn0O-OkMNNKHmP1iU6e6Dj).
 
 
 ## Contact
