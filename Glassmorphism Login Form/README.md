@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/ToDo%20list%20in%20vanilla%20js/Irina'sToDo.jpg)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Glassmorphism%20Login%20Form/image.png)
 
 
 ## Project Status
