@@ -9,3 +9,11 @@
 
 ## Project Status
 Project is:  _complete_ .
+
+
+## Acknowledgements
+- This project was based on [this tutorial](https://www.youtube.com/watch?v=mBaMq1DphRs).
+
+
+## Contact
+Created by [Codingflag](https://www.youtube.com/channel/UCXDLrsqe14uFu6k96xjlF4w).
