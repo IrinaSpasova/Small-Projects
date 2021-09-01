@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Video%20BG/image.png)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Animated%20Tabs%20with%20Indicator/image.png)
 
 
 ## Project Status
