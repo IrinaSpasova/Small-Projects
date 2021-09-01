@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flip Card</title>
+    <style>
+        .maincontainer {
+            position: relative;
+            width: 250px;
+            height: 320px;
+          /*  background: green;*/
+        }
+
+        .thecard {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            transform-style: preserve-3d;/* If this do not exist: "preserve-3d" the cart just flip.*/
+            transition: all 0.5s ease;
+           /* background: yellow;*/
+        }
+
+        .thecard:hover{
+            transform: rotateY(180deg);
+        }
+
+        .thefront{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;/*if it is not:"hidden" the card have two faces*/
+            background: #ffc728;
+            color:#333;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .theback{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden;
+            background: #5fcf80;
+            color:#fff;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            border-radius: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            transform: rotateY(180deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="maincontainer">
+
+        <div class="thecard">
+
+            <div class="thefront">
+<p>Front</p>
+            </div>
+
+            <div class="theback">
+
+<p>Back</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
