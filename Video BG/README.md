@@ -1,4 +1,4 @@
-# Glassmorphism Login Form
+# Video BG
 
 > A small project HTML/CSS.
 
@@ -11,10 +11,3 @@
 Project is:  _complete_ .
 
 
-## Acknowledgements
-- This project was based on [this tutorial](https://www.youtube.com/watch?v=rzmr_22wIvs).
-
-
-## Contact
-Created by [Web Dev Tips](https://www.webdevtips.ru/).
-Video created by [Enrique Hoyos](https://www.pexels.com/@enriquehoyos).
