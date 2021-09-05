@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Glassmorphism%20Login%20Form/image.png)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Creative%20Box%20Border%20Hover%20Effects/image.png)
 
 
 ## Project Status
