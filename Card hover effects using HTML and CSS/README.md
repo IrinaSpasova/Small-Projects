@@ -5,7 +5,7 @@
 
 
 ## Screenshots
-![Example screenshot](https:...)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Card%20hover%20effects%20using%20HTML%20and%20CSS/image.png)
 
 
 ## Project Status
