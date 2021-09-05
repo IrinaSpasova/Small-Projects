@@ -14,7 +14,7 @@ Project is:  _complete_ .
 
 ## Acknowledgements
 - This project was based on [this tutorial](https://www.youtube.com/watch?v=FM-N0-_GGVQ).
-
+<a href='https://www.freepik.com/vectors/background'>Background vector created by pikisuperstar - www.freepik.com</a>
 
 ## Contact
 Created by [Subrata The Computer Guy](https://www.youtube.com/channel/UCIF7rpKnjhxk7U1lAm7_kMw).
