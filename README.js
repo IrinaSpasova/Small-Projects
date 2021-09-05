@@ -28,7 +28,7 @@ Templete 2:
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Creative%20Box%20Border%20Hover%20Effects/image.png)
+![Example screenshot](https:...)
 
 
 ## Project Status
