@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-![Example screenshot](https:...)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Water%20Text%20Animation/image.png)
 
 
 ## Project Status
