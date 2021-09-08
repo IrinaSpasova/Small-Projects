@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/CSS%20Image%20overlay%20effect/image.png)
+![Example screenshot]()
 
 
 ## Project Status
