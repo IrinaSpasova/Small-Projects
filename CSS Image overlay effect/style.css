@@ -1,0 +1,79 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     background: rgb(245, 234, 215);
+ }
+
+ .container {
+     margin-top: 15%;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+ }
+ 
+ .btn {
+     background-color: transparent;
+     border: 2px solid #fff;
+     border-radius: 10px;
+     color: white;
+ }
+
+ .btn:hover {
+     background: white;
+     color: #000;
+ }
+
+ .box {
+     display: inline-block;
+     position: relative;
+     overflow: hidden;
+ }
+
+ .box image {
+     width: 100%;
+ }
+
+ .box:hover .overlay {
+     top: 10%;
+    /* align-self: center; /*move the overlay a little bit left from the photo.*/
+    left: 16.5%;
+}
+
+ .overlay {
+     width: 75%;
+     height: 75%;
+     background-image: linear-gradient(to bottom, rgba(224, 157, 32, 0.7), rgba(224, 157, 32, 0.1));
+     padding: 20px;
+     top: -100%;
+     left: 5%;
+     position: absolute;
+     transition: 0.7s;
+ }
+
+ .overlay h3 {
+     text-transform: uppercase;
+     color: white;
+     font-size: 1.5em;
+     line-height: 2.5em;
+ }
+
+ img {
+     /*float: left;*/
+     width: 250px;
+     height: 350px;
+     object-fit: cover;
+     font-weight: 700;
+     margin-left: 25px;
+
+     /*this solve problem with the picture size*/
+ }
+
+ a:link {
+    text-decoration: none;
+    font-weight: 700;
+    padding: 5px;
+  } 
