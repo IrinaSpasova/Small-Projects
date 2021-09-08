@@ -13,6 +13,7 @@ Project is:  _complete_ .
 
 ## Acknowledgements
 - This project was based on [this tutorial](https://www.youtube.com/watch?v=SVbcERfFyl8).
+- Photo by Lisa vhb from Pexels.
 
 
 ## Contact
