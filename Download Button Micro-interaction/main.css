@@ -1,0 +1,79 @@
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css");
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+html,
+body {
+    background-color: #0f0f0f;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    width: 100vh;
+    text-align: center;
+}
+
+.btn {
+    background-color: #252525;
+    width: 200px;
+    padding: 15px;
+    color: #f4f4f4;
+    border-radius: 3rem;
+    box-shadow: 1px 1px 17px #020a09;
+    cursor: pointer;
+    text-align: center;
+    margin: 2em auto;
+    transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition-timing-function: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+.btn__progress {
+    width: 500px;
+    padding: 2px;
+    color: transparent;
+
+}
+
+.btn__progress--fill::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #1795cf;
+    margin: -16.9px 0px;
+    padding: 0.48em 0.98em;
+    border-radius: 3rem;
+    animation: fill 3.4s linear forwards;
+}
+
+.btn__complete{
+    width: 42px;
+    padding: 10px;
+    color: transparent;
+    pointer-events: none;
+}
+
+.btn__complete::after{
+    font-family: fontAwesome;
+    content: "\f00c";
+    color: #f4f4f4;
+    margin: -18px 3px;
+    position: absolute;
+    display: block;
+}
+
+@keyframes fill{
+    from{
+        width:0;
+    }
+    to{
+        width: 470px;
+    }
+}
