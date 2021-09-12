@@ -45,3 +45,10 @@ Created by [Online Tutorials](https:...).
 
 ## License
 This project is open source and available under the MIT License. 
+
+
+<details>
+<summary>How do I dropdown?</summary>
+<br>
+This is how you dropdown.
+</details>
