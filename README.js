@@ -56,3 +56,6 @@ This project is open source and available under the MIT License.
 <br>
 This is how you dropdown.
 </details>
+
+##Markdown Cheatsheet
+[Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
