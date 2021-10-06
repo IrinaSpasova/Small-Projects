@@ -1,0 +1,124 @@
+<!-- **************** WITH IMG*********************-->
+
+<!--
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave effect</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;         
+        }
+
+        section {
+            width: 100%;
+            min-height: 1000px;
+        }
+
+        .wave {
+            position: relative;
+            background: rgb(18, 226, 202);
+            background: linear-gradient(90deg, rgba(18, 226, 202, 1) 0%, rgba(29, 130, 215, 1) 50%, rgba(35, 50, 145, 1) 100%);
+        }
+
+        .wave::before {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 250px;
+            background: url("wave.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="wave"></section>
+    <section></section>
+</body>
+
+</html>
+
+
+
+
+                                              ***************************WITHOUT IMG********************
+    
+    
+                                    <h2> ВАЖНО Е AI ФАЙЛА ДА Е В ПАПКАТА, В КОЯТО СЪХРАНЯВАМЕ SWG-ТО, ИНАЧЕ НЕ РАЗПОЗНАВА ПЪТЯ.</h2>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wave</title>
+
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        section {
+            position: relative;
+            margin: 0;
+            padding: 0;
+            background: #ff319c url(bg.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+        }
+
+        #curve {
+            position: absolute;
+            bottom: -50px;
+            width: 100%;
+        }
+
+        #curve path {
+            fill: #000;
+        }
+
+        section.sec2 {
+            width: 100%;
+            height: 100vh;
+            background: #000;
+        }
+    </style>
+    <!-- style or link and another file
+    Kartinkata e kriwa, za towa:
+    
+    #curve{
+          
+            bottom: -50px;
+
+            при правилен долен край на svg-to- bottom: 0; 
+    -->
+</head>
+
+<body>
+    <section><svg id="curve" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1895 584.78">
+            <path class="cls-1"
+                d="M-277,388c117.06,38.53,301.56,85,527,77,366.77-13,413.91-155,682-110,234.45,39.35,381.5,178.68,584,102a403.76,403.76,0,0,0,102-57q-4,265.5-8,531L282,907l-559-5Z"
+                transform="translate(277 -346.22)" />
+            <path class="cls-1" d="M3203,858" transform="translate(277 -346.22)" /></svg>
+    </section>
+
+    <section class="sec2"></section>
+</body>
+
+</html>
