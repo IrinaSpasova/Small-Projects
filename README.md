@@ -111,8 +111,5 @@ DOWN-POINTING SMALL RED TRIANGLE (&#x1F53D;): 🔽
 
  
 
-## Acknowledgements
 
-- This project was <span style="color:blue">*based*</span> 
--on  [this tutorial](https:...).
   
