@@ -107,10 +107,10 @@ UP-POINTING SMALL RED TRIANGLE (&#x1F53C;): 🔼
 DOWN-POINTING SMALL RED TRIANGLE (&#x1F53D;): 🔽
 
 
-(&#x1F537;)
+&#x1F537;
 
 
-- text in red
+
 
 
 
