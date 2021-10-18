@@ -109,6 +109,8 @@ DOWN-POINTING SMALL RED TRIANGLE (&#x1F53D;): 🔽
 
 &#x1F537;
 
+[Emoji Unicode Tables](https://apps.timwhitlock.info/emoji/tables/unicode)
+
 
 
 
