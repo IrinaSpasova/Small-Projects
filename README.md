@@ -111,6 +111,8 @@ DOWN-POINTING SMALL RED TRIANGLE (&#x1F53D;): 🔽
 
 [Emoji Unicode Tables](https://apps.timwhitlock.info/emoji/tables/unicode)
 
+[HTML email](https://mjml.io/templates)
+[HTML email](https://app.mailjet.com/)
 
 
 
