@@ -5,7 +5,7 @@
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/CSS%203D%20Flip%20Product%20Card%20Hover%20Effects/img.png)
+![Example screenshot]()
 
 
 ## Project Status
