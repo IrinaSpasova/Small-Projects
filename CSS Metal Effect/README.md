@@ -5,7 +5,7 @@
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/CSS%20Animation%20Effects%20%7C%20Html%20CSS%20Only/img.png)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/CSS%20Metal%20Effect/img.png)
 
 
 ## Project Status
