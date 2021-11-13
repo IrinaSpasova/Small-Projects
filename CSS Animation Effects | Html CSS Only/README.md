@@ -1,4 +1,4 @@
-# CSS Animation Effects 
+# Pure CSS Metal Text Effect | CSS text effects 
 
 
 > A small project HTML/CSS.
@@ -13,11 +13,11 @@ Project is:  _complete_ .
 
 
 ## Acknowledgements
-- This project was based on [this tutorial](https://www.youtube.com/watch?v=1Aq9OJuS3ok).
+- This project was based on [this tutorial](https://www.youtube.com/watch?v=j8WLL07AviY).
 
 
 ## Contact
-Created by [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers).
+Created by [Divinector](https://www.youtube.com/channel/UCki4IDK86E6_pDtptmsslow).
 
 
 ## License
