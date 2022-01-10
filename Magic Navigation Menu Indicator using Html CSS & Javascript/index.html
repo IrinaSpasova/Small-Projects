@@ -68,3 +68,24 @@
 </body>
 
 </html>
+
+
+<!--
+ Kristóf Bálinth
+
+Instead of the copy-paste solution for moving the indicator, I've assigned this method to all list elements.
+Type parameter is basically an index, 0 for Home, 1 for Profile, 2 for chat and so on.
+
+setActive (type) {
+      const list = document.querySelectorAll('.list')
+      const indicator = document.querySelector('.indicator')
+
+      list.forEach((element, index) => {
+        if (index === type) {
+          element.classList.add('active')
+          return indicator.style.transform = `translateX(${70 * type}px)`
+        }
+        element.classList.remove('active')
+      })
+    }
+-->
