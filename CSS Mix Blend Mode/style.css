@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: #000;
+}
+
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+div{
+    width: 500px;
+    height: 500px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/10/13/17/pattern-2490099_960_720.png);
+    -webkit-background-size: cover;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: aliceblue;
+}
+
+div img{
+    height: 100%;
+    width: 100%;
+    mix-blend-mode: screen;
+}
