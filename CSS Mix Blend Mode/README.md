@@ -1,4 +1,4 @@
-# Animated tabs with Indicator
+# CSS Mix Blend Mode
 
 > A small project HTML/CSS.
 
