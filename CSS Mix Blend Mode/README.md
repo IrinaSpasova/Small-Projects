@@ -4,7 +4,7 @@
 
 
 ## Screenshots
-![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/Animated%20Tabs%20with%20Indicator/image.png)
+![Example screenshot](https://github.com/IrinaSpasova/Small-projects-JavaScript/blob/main/CSS%20Mix%20Blend%20Mode/Untitled.png)
 
 
 ## Project Status
