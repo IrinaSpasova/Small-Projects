@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rancho&family=Water+Brush&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+:root {
+    --Primary: #A760FF;
+    --second: #d568df;
+    --background: #fff;
+    --font-color: #555;
+}
+
+.skill_section {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.heading {
+    font-size: 26px;
+    font-weight: 600;
+    position: relative;
+    color: var(--Primary);
+    margin-bottom: 70px;
+}
+
+.heading span {
+    color: var(--font-color);
+}
+
+.heading::after,
+.heading::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: var(--Primary);
+    border-radius: 20px;
+}
+
+.heading::after {
+    top: 50%;
+    left: -80px;
+    transform: translateY(-50%);
+}
+
+.heading::before {
+    top: 50%;
+    right: -80px;
+    transform: translateY(-50%);
+}
+
+.container {
+    width: 100%;
+    padding: 0 13%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.card {
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 7px 13px 25px rgba(0, 0, 0, 0.068);
+    border-radius: 6px;
+}
+
+.card p {
+    font-size: 21px;
+    color: var(--Primary);
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+/* Media Query Started  */
+
+@media only screen and (max-width:1220px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width:780px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .heading {
+        font-size: 20px;
+    }
+}
