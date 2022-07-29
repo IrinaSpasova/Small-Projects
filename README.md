@@ -1,5 +1,5 @@
 # Small-projects-JavaScript
-JS projects
+HTML, CSS & JS projects
 
 
 
