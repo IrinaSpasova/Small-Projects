@@ -121,6 +121,29 @@ h2 {
   box-shadow: 0 25px 45px rgba(20, 20, 20, 0.5);
 }
 
+/* Variant with elements only on hover:
+.elements {
+  position: absolute;
+  top: 50px;
+  left: -30px;
+  width: 100px;
+  height: 100px;
+  background: rgba(20, 20, 20, 0.2);
+  transform: translateZ(80px);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-top: 1px solid rgba(20, 20, 20, 0.45);
+  border-left: 1px solid rgba(20, 20, 20, 0.45);
+  box-shadow: 0 25px 45px rgba(20, 20, 20, 0.5);
+  opacity: 0;
+}
+
+.box:hover .elements {
+  opacity: 1;
+}
+*/
+
 .elements.bg::before {
   content: "";
   position: absolute;
