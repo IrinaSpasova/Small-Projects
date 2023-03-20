@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(bg.png);
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  font-weight: 500;
+}
+
+.box {
+  position: relative;
+  border-radius: 16px;
+  transform-style: preserve-3d;
+}
+
+.box .card {
+  position: relative;
+  background: rgba(20, 20, 20, 0.2);
+  width: 300px;
+  min-height: 400px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-top: 1px solid rgba(20, 20, 20, 0.45);
+  border-left: 1px solid rgba(20, 20, 20, 0.45);
+  border-radius: 16px;
+  box-shadow: 0 25px 45px rgba(20, 20, 20, 0.5);
+  transform-style: preserve-3d;
+}
+
+.elements {
+  position: absolute;
+  top: 50px;
+  left: -30px;
+  width: 100px;
+  height: 100px;
+  background: rgba(20, 20, 20, 0.2);
+  transform: translateZ(80px);
+  border-radius: 8px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-top: 1px solid rgba(20, 20, 20, 0.45);
+  border-left: 1px solid rgba(20, 20, 20, 0.45);
+  box-shadow: 0 25px 45px rgba(20, 20, 20, 0.5);
+}
+
+.elements.bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url(left-quote.png);
+  background-size: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.box:hover .elements.bg::before {
+  opacity: 1;
+}
+
+.elements.imgBx {
+  top: 0;
+  left: initial;
+  right: 60px;
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  transform: translateZ(120px);
+}
+
+.elements.imgBx img {
+  position: absolute;
+  width: calc(
+    100% - 20px
+  ); /* it is important to have space here: (100% - 20px)*/
+  border: 1px solid rgba(20, 20, 20, 0.2);
+  border-top: 1px solid rgba(20, 20, 20, 0.45);
+  border-left: 1px solid rgba(20, 20, 20, 0.45);
+  box-shadow: 0 25px 45px rgba(20, 20, 20, 0.5);
+  opacity: 0;
+  transition: 0.5s;
+  border-radius: 4px;
+}
+
+.box:hover .elements.imgBx img {
+  opacity: 1;
+}
+
+.elements.name {
+  top: 235px;
+  left: initial;
+  right: 0;
+  width: 100%;
+  padding: 10px;
+  text-align: right;
+  transform: translateZ(180px);
+  background: transparent;
+  backdrop-filter: blur(0px);
+  border: none;
+  box-shadow: none;
+  color: rgba(20, 20, 20, 1);
+  transition: 0.5s;
+  opacity: 0;
+  transition-delay: 0.25s;
+}
+
+.box:hover .elements.name {
+  top: 135px;
+  opacity: 1;
+}
+
+.elements.content {
+  top: initial;
+  left: initial;
+  bottom: 0;
+  right: -20px;
+  width: 85%;
+  min-height: 200px;
+  padding: 16px;
+  transform: translateZ(180px);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.elements.content p {
+  position: relative;
+  color: rgba(20, 20, 20, 1);
+  font-size: 0.95em;
+  transition: 0.8s;
+  opacity: 0;
+  transition-delay: 0.5s;
+}
+
+.box:hover .elements.content p {
+  opacity: 1;
+}
