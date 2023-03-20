@@ -137,6 +137,7 @@ h2 {
   border-left: 1px solid rgba(20, 20, 20, 0.45);
   box-shadow: 0 25px 45px rgba(20, 20, 20, 0.5);
   opacity: 0;
+  transition: 0.5s;
 }
 
 .box:hover .elements {
